@@ -1,0 +1,40 @@
+.checkoutProduct {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: 1px solid lightgray;
+}
+
+.checkoutProduct__info {
+    padding-left: 80px;
+}
+
+.checkoutProduct__info > button {
+    background: #1f324a;
+    border: none;
+    margin-top: 10px;
+    border-color: #0B0E16 #1E3149 #455567;
+    color: white;
+    padding: 5px 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.checkoutProduct__info > button:hover {
+    background: #0B0E16;
+    color: white;
+    border: none;
+}
+
+.checkoutProduct__image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.checkoutProduct__title {
+    font-size: 17px;
+    font-weight: 800;
+}
