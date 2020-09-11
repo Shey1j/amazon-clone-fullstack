@@ -48,9 +48,14 @@
     margin-right: 10px;
 }
 
+.header__option a {
+    text-decoration: none;
+}
+
 .header__optionLineOne {
     font-size: 10px;
 }
+
 
 .header__optionLineTwo {
     font-size: 13px;
